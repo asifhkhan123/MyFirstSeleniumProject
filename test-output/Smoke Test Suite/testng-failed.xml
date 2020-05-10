@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="All Importent Test(failed)">
+    <classes>
+      <class name="com.automationpractice.registration.RegistrationTest">
+        <methods>
+          <include name="bm"/>
+          <include name="account_with_missing_required_fields"/>
+        </methods>
+      </class> <!-- com.automationpractice.registration.RegistrationTest -->
+    </classes>
+  </test> <!-- All Importent Test(failed) -->
+</suite> <!-- Failed suite [Smoke Test Suite] -->

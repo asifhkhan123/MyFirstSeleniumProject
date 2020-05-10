@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-05T23:18:56Z" name="Default suite" finished-at="2020-05-05T23:19:06Z" duration-ms="9308">
+    <groups>
+    </groups>
+    <test started-at="2020-05-05T23:18:56Z" name="Default test" finished-at="2020-05-05T23:19:06Z" duration-ms="9308">
+      <class name="net.automationpractice.login.LoginTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:18:56Z" name="beforeSuite" finished-at="2020-05-05T23:18:56Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:18:56Z" name="beforeClass" finished-at="2020-05-05T23:18:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:18:56Z" name="beforeMethod" finished-at="2020-05-05T23:19:00Z" duration-ms="3809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login_with_valid_userid()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:19:00Z" name="login_with_valid_userid" finished-at="2020-05-05T23:19:05Z" duration-ms="5384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_with_valid_userid -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:19:05Z" name="afterMethod" finished-at="2020-05-05T23:19:06Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:19:06Z" name="afterClass" finished-at="2020-05-05T23:19:06Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:net.automationpractice.login.LoginTests@4b8ee4de]" started-at="2020-05-05T23:19:06Z" name="afterSuite" finished-at="2020-05-05T23:19:06Z" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- net.automationpractice.login.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
