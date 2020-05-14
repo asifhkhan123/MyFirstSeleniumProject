@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automationpractice.purchase.PurchaseOne">
+      <class name="com.automationpractice.parameters.TestNGParameters">
         <methods>
           <include name="bm"/>
-          <include name="purchase_A_T_Shirt"/>
+          <include name="test_Ng_para"/>
         </methods>
-      </class> <!-- com.automationpractice.purchase.PurchaseOne -->
+      </class> <!-- com.automationpractice.parameters.TestNGParameters -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression in parallel" parallel="tests" thread-count="2">
+
+  <test name="Login Tests">
+    <classes>
+      <class name="com.automationpractice.parallel.LoginTests"/>
+    </classes>
+  </test> 
+  
+  
+  
+  <test name="Order Tests">
+    <classes>
+      <class name="com.automationpractice.parallel.OrderTests"/>
+    </classes>
+  </test> 
+  
+  <test name="Purchase Tests">
+    <classes>
+      <class name="com.automationpractice.parallel.PurchaseTests"/>
+    </classes>
+  </test> 
+  
+  
+  <test name="Registration Tests">
+    <classes>
+      <class name="com.automationpractice.parallel.RegistrationTests"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 
