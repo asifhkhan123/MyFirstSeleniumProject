@@ -10,7 +10,7 @@ public class EvenOddDemo {
 		
 		int num;
 		System.out.print("Enter positive integer number:");
-		num=input.nextInt();
+		num=input.nextInt();// int no. will take thats why nextint
 		
 		if(num%2==0) {
 			System.out.println("Even");
@@ -21,6 +21,7 @@ public class EvenOddDemo {
 		
 		
 
+		
 	}
 
 }
